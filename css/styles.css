@@ -1,0 +1,113 @@
+
+h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+button {
+    cursor: pointer;
+    border: none;
+    font-family: inherit;
+}
+
+img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+body {
+    font-family: "Poppins", serif;
+    background-color: #fff;
+    color: #22343d;
+    font-size: 16px;
+}
+
+.container {
+    width: 1140px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.header {
+    display: flex;
+}
+/* region price */
+.price {
+    padding-top: 75px;
+    padding-bottom: 50px;
+}
+.price-title {
+    font-weight: 700;
+    font-size: 34px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.price-text {
+    font-weight: 500;
+    text-align: center;
+    margin-bottom: 40px;
+}
+.price-list {
+    display: flex;
+    gap: 72px;
+}
+.price-item {
+    padding-top: 32px;
+    width: calc((100% - 144px) / 3);
+    text-align: center;
+    font-family: "Montserrat", serif;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.25);
+}
+.price-item-title {
+    margin-bottom: 8px;
+    font-family: "Poppins", serif;
+    text-align: center;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 1.67;
+}
+.price-item-text {
+    line-height: 2.5;
+    margin-bottom: 16px;
+}
+.price-item-number {
+    font-weight: 700;
+    font-size: 76px;
+    line-height: 1.32;
+    letter-spacing: 0em;
+    color: #02897a;
+    margin-right: 7px;
+}
+.price-item-currency {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 1.25;
+    letter-spacing: 0em;
+    color: #02897a;
+    margin-bottom: 4px;
+    text-align: left;
+}
+.price-item-term {
+    line-height: 1.19;
+    letter-spacing: 0.01em;
+    color: #afafaf;
+}
+.price-inner {
+    margin-bottom: 30px;
+}
+.inner--item:not (: :last-child) {
+    margin-bottom: 16px;
+}
+    /* endregion price */
